@@ -3,8 +3,6 @@ const { User, Scores, Badge } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
-    Upload: GraphQLUpload,
-
     Query: {
         me: async (parent, args, context) => {
             if (context.user) {
