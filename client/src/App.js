@@ -11,6 +11,8 @@ import { createUploadLink } from 'apollo-upload-client';
 import logo from './logo.svg';
 import './App.css';
 
+import Header from './Components/Header'
+
 import Home from './Pages/Home'
 
 const uploadLink = createUploadLink({
@@ -38,7 +40,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-
+        <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
         </Routes>
