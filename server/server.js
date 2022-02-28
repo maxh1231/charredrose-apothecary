@@ -7,6 +7,8 @@ const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
 const app = express();
 const PORT = process.env.PORT || 3001;
+const cors = require('cors');
+const { GraphQLUpload, graphqlUploadExpress } = require('graphql-upload');
 
 const server = new ApolloServer({
     uploads: false,
@@ -15,6 +17,7 @@ const server = new ApolloServer({
     context: authMiddleware,
 });
 
+app.use(graphqlUploadExpress());
 server.applyMiddleware({ app });
 
 app.use(express.urlencoded({ extended: true }));
@@ -28,11 +31,14 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
+const { createServer } = require('http');
+const httpServer = createServer(app);
+
 db.once('open', () => {
     console.log(
         `GraphQL server ready at http://localhost:${PORT}${server.graphqlPath}`
     );
-    app.listen(PORT, () =>
+    httpServer.listen(PORT, () =>
         console.log(`Listening on localhost:${PORT}`)
     );
 });
