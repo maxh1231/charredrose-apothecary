@@ -18,6 +18,4 @@ const Header = () => {
     )
 }
 
-// comment
-
 export default Header;
