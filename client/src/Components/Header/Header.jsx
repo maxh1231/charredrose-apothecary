@@ -1,15 +1,15 @@
 const Header = () => {
     return (
-        <header>
+        <header className="flex flex-row justify-around">
             <nav>
-                <ul>
+                <ul className="flex flex-row">
                     <li>Home</li>
                     <li>Contact</li>
                     <li>Products</li>
                 </ul>
             </nav>
             <div>
-                {/* Logo */}
+                <h1>*IMAGE*</h1>
             </div>
             <div>
                 <h1>The Charred Rose Apothecary</h1>
