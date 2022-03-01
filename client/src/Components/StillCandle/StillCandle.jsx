@@ -23,4 +23,4 @@ const StillCandle = () => {
     )
 }
 
-export default stillCandle;
+export default StillCandle;

@@ -1,6 +1,7 @@
 import HigherCandle from '../Components/HigherCandle'
 import GroundCandle from '../Components/GroundCandle'
 import StillCandle from '../Components/StillCandle'
+import PassionCandle from '../Components/PassionCandle'
 
 const Candles = () => {
     return (
@@ -12,6 +13,7 @@ const Candles = () => {
             <HigherCandle />
             <GroundCandle />
             <StillCandle />
+            <PassionCandle />
         </section>
     )
 }
