@@ -16,6 +16,7 @@ import Header from './Components/Header'
 import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import Products from './Pages/Products'
+import Candles from './Pages/Candles'
 
 const uploadLink = createUploadLink({
   uri: '/graphql',
@@ -46,6 +47,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/products" element={<Products />} />
+          <Route exact path="/products/candles" element={<Candles />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </Router>

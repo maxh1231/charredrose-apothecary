@@ -1,4 +1,4 @@
-import higherCandle from '../assets/higher-candle.jpg'
+import higherCandle from '../../assets/higher-candle.jpg'
 
 const HigherCandle = () => {
     return (
