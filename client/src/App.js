@@ -14,6 +14,7 @@ import './App.css';
 import Header from './Components/Header'
 
 import Home from './Pages/Home'
+import Contact from './Pages/Contact'
 
 const uploadLink = createUploadLink({
   uri: '/graphql',
@@ -43,6 +44,7 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </ApolloProvider>
