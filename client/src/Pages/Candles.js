@@ -1,5 +1,6 @@
 import HigherCandle from '../Components/HigherCandle'
 import GroundCandle from '../Components/GroundCandle'
+import StillCandle from '../Components/StillCandle'
 
 const Candles = () => {
     return (
@@ -10,6 +11,7 @@ const Candles = () => {
             </div>
             <HigherCandle />
             <GroundCandle />
+            <StillCandle />
         </section>
     )
 }
