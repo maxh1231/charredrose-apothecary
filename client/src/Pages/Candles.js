@@ -6,7 +6,7 @@ import PassionCandle from '../Components/PassionCandle'
 const Candles = () => {
     return (
         <section>
-            <div>
+            <div className='flex flex-col items-center text-white'>
                 <h2>Candles</h2>
                 <span>All candles are custom made with soy wax and eco friendly cotton sick. Each crystal is cleansed and intentions set for each cnadle and its properties.</span>
             </div>
