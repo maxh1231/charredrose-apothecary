@@ -3,31 +3,31 @@ import viles2 from '../assets/individual-viles2.JPG'
 
 const Viles = () => {
     return (
-        <div>
+        <div className="flex flex-row justify-center items-center text-white">
             <div>
-                <p>Chamomile</p>
-                <p>Marigold</p>
-                <p>Tulip</p>
-                <p>Rubarb</p>
-                <p>Maple Seed Fairy Wings</p>
-                <p>Cherry Bark</p>
-                <p>Pine</p>
-                <p>Walnut Shells</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Chamomile</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Marigold</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Tulip</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Rubarb</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Maple Seed Fairy Wings</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Cherry Bark</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Pine</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Walnut Shells</p>
             </div>
             <div>
-                <h2>Individual Viles</h2>
-                <img src={viles1} alt="individual viles"></img>
-                <img src={viles2} alt="individual viles"></img>
+                <h2 className="text-4xl font-bold text-center my-12">Individual Viles</h2>
+                <img src={viles1} alt="individual viles" className="w-[800px] h-[450px] object-cover rounded-lg my-4"></img>
+                <img src={viles2} alt="individual viles" className="w-[800px] h-[450px] object-cover rounded-lg my-4"></img>
             </div>
             <div>
-                <p>Lemon</p>
-                <p>Orange Peel</p>
-                <p>Pomegranate Seed</p>
-                <p>Pomegranate Peel</p>
-                <p>Lavendar</p>
-                <p>Cherry Bay</p>
-                <p>Rose Petals</p>
-                <p>Hibiscus</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Lemon</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Orange Peel</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Pomegranate Seed</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Pomegranate Peel</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Lavendar</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Cherry Bay</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Rose Petals</p>
+                <p className="text-xl py-4 px-12 text-center underline underline-offset-8">Hibiscus</p>
             </div>
         </div>
     )
