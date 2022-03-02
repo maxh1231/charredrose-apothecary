@@ -7,29 +7,33 @@ import stoneNecklace from '../assets/stone-necklace.jpg'
 
 const Jewelry = () => {
     return (
-        <div>
-            <h2>Resin & Jewelry</h2>
-            <p>All resin prodcuts are hand made, charged and cleansed</p>
-            <div>
-                <div>
+        <div className="text-white text-center flex flex-col items-center">
+            <div className="mt-6">
+                <h2 className="mb-8 text-4xl">Resin & Jewelry</h2>
+                <p className="text-xl">All resin prodcuts are hand made, charged and cleansed</p>
+            </div>
+            <div className="flex flex-row">
+                <div className="flex flex-col ">
                     <div>
-                        <img src={chargedResin} alt="Charged resin"></img>
+                        <img src={chargedResin} alt="Charged resin" className="mx-16 my-12 w-[450px] h-[350px] object-cover"></img>
                     </div>
                     <div>
-                        <img src={resinPendulum2} alt="Resin Pendulum"></img>
+                        <img src={resinPendulum2} alt="Resin Pendulum" className="mx-16 my-12 w-[450px] h-[350px] object-cover"></img>
                     </div>
                     <div>
-                        <img src={resinHolder} alt="Resin holder"></img>
+                        <img src={resinHolder} alt="Resin holder" className="mx-16 my-12 w-[450px] h-[350px] object-cover"></img>
                     </div>
                 </div>
-                <div>
-                    <img src={resinPendulum1} alt="Resin Pendulum"></img>
-                </div>
-                <div>
-                    <img src={evilEye} alt="Evil eye"></img>
-                </div>
-                <div>
-                    <img src={stoneNecklace} alt="stoneNecklace"></img>
+                <div className="flex flex-col">
+                    <div>
+                        <img src={resinPendulum1} alt="Resin Pendulum" className="mx-16 my-12 w-[450px] h-[350px] object-cover"></img>
+                    </div>
+                    <div>
+                        <img src={evilEye} alt="Evil eye" className="mx-16 my-12 w-[450px] h-[350px] object-cover"></img>
+                    </div>
+                    <div>
+                        <img src={stoneNecklace} alt="stoneNecklace" className="mx-16 my-12 w-[450px] h-[350px] object-cover"></img>
+                    </div>
                 </div>
             </div>
         </div>
