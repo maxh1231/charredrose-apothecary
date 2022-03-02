@@ -52,6 +52,16 @@ const BurnCollection = () => {
                         <p><span>Citrust Zest</span> for purification, happiness, removing negative nergy, mood lifting,</p>
                         <p>finding purpose</p>
                     </div>
+                    <div>
+                        <h3>Midnight Manifest</h3>
+                        <p>Burn this mix when you seek confidence and open clarity</p>
+                        <p><span>Rose</span> for beauty, sexuality, self love, confidence</p>
+                        <p><span>Jasmine</span> for grace</p>
+                        <p><span>Sage</span> for widsom, clarity</p>
+                        <p><span>Bay</span> for inspiration, widsom</p>
+                        <p><span>Palo Santo</span> for creativity</p>
+                        <p><span>Pomegranate Peel</span> for spiritual thinking, passion</p>
+                    </div>
                 </div>
             </div>
 
