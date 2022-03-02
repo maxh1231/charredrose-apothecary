@@ -18,6 +18,7 @@ import Contact from './Pages/Contact'
 import Products from './Pages/Products'
 import Candles from './Pages/Candles'
 import BurnCollection from './Pages/BurnCollection';
+import Viles from './Pages/Viles';
 
 const uploadLink = createUploadLink({
   uri: '/graphql',
@@ -50,6 +51,7 @@ function App() {
           <Route exact path="/products" element={<Products />} />
           <Route exact path="/products/candles" element={<Candles />} />
           <Route exact path="/products/burncollection" element={<BurnCollection />} />
+          <Route exact path="/products/viles" element={<Viles />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </Router>
