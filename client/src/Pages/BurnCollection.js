@@ -43,6 +43,15 @@ const BurnCollection = () => {
                         <p><span>Pomegranate </span> for feminine energy, passion, intensity, fertility</p>
                         <p><span>Hibiscus </span> for passion and love</p>
                     </div>
+                    <div>
+                        <h3>Shine</h3>
+                        <p>Burn this mix when feeling down.</p>
+                        <p>Instant mood boost to bring a ray of light from the clouds</p>
+                        <p><span>Lily</span> for passion, desire, flame</p>
+                        <p><span>Marigold</span> for prosperity, affection</p>
+                        <p><span>Citrust Zest</span> for purification, happiness, removing negative nergy, mood lifting,</p>
+                        <p>finding purpose</p>
+                    </div>
                 </div>
             </div>
 
