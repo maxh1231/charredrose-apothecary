@@ -32,6 +32,17 @@ const BurnCollection = () => {
                         <p><span>Bay Leaf</span> to calm the body and mind</p>
                         <p><span>Chamomile</span> to ease stress and anxiety, quiets the mind</p>
                     </div>
+                    <div>
+                        <h3>Desire</h3>
+                        <p>Get in touch with yuor inner sex god or goddess.</p>
+                        <p>This burn mix can heighten your sex drive and bring your fantasies to life,</p>
+                        <p>burn while manifesting love, desire, and passion</p>
+                        <p><span>Rose</span> for beauty, sexuality, self love, confident</p>
+                        <p><span>Jasmine</span> for sensuality and romance</p>
+                        <p><span>Lavender</span> for devotion, love, happiness</p>
+                        <p><span>Pomegranate </span> for feminine energy, passion, intensity, fertility</p>
+                        <p><span>Hibiscus </span> for passion and love</p>
+                    </div>
                 </div>
             </div>
 
