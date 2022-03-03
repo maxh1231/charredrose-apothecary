@@ -5,7 +5,7 @@ const Contact = () => {
                 <h2 className="text-center text-4xl underline underline-offset-8 my-12 ">
                     Contact
                 </h2>
-                <h3 className="text-center my-12">
+                <h3 className="text-center my-12 text-lg">
                     Send us reviews or products you'd like to see!
                 </h3>
             </div>
